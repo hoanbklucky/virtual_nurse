@@ -4,7 +4,7 @@ The app was build using Streamlit, following two tutorials with modification so 
 - Streamlit tutorial on how to create a chat app: https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/build-conversational-apps
 - Medium tutorial on how to integrate Vertex AI into Streamlit: https://swethag04.medium.com/build-and-deploy-a-gen-ai-app-using-vertexai-gemini-and-streamlit-df3e52e1d2f2
 - Set up virtual environment as instructed in the Medium tutorial
-- In the virtual environment, pip install -r requirements.txt
+- In the virtual environment, pip install -r requirements.txt (from the Medium tutorial git repo https://github.com/swethag04/question_variant_gemini/)
 - Authenticate to google cloud (gcloud init & gcloud auth application-default login, may need to install Google Cloud CLI so that gcloud can be recognized)
 - Set Google cloud Project_ID as an environment variable (export/set PROJECT_ID = 'your_project_id')
 - Create Vertex AI: Chat AI -> add instruction for AI -> test -> get code
