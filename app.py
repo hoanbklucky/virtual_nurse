@@ -56,7 +56,7 @@ def generate(contents):
 st.title(" 🤖 Virtual Nurse")
 st.header("I am a virtual nurse", 
         divider="gray")
-st.write("""I will ask you some questions and then let you know triage decision""")
+st.write("""I will ask you some questions and then let you know triage decision. Are you OK?""")
 
 if "model" not in st.session_state:
     st.session_state["model"] = "gemini-2.0-flash-001"

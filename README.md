@@ -11,4 +11,4 @@ The app was build using Streamlit, following two tutorials with modification so 
 - Insert the code into the Streamlit tutorial
 - Modify the Streamlit tutorial.
 - Streamlit app rerun script after each event. Therefore, make sure to store chat contents/messages in st.session_state.contents and st.session_state.messages which will be preserved between the script reruns https://docs.streamlit.io/get-started/fundamentals/advanced-concepts
-- Contents for Vertex AI has be saved in a certain format, e.g. st.session_state.contents.append(types.Content(role="user", parts=[types.Part.from_text(text=prompt)])) and st.session_state.contents.append(types.Content(role="model", parts=[types.Part.from_text(text=response)]))
+- Contents for Vertex AI has to be saved in a certain format, e.g. st.session_state.contents.append(types.Content(role="user", parts=[types.Part.from_text(text=prompt)])) and st.session_state.contents.append(types.Content(role="model", parts=[types.Part.from_text(text=response)]))
