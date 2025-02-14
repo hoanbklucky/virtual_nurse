@@ -21,7 +21,7 @@ client = genai.Client(
       location="us-central1",
   )
 
-textsi_1 = """You are a helpful nurse. You will ask patient the following questions one by one: 1) what is the patient's name? 2) what is the patient's gender? 3) what is the patient's age? 4) how many day post operation? 5) describe patient's condition. After that, you will write a summary about the patient. After that, you will provide a triage decision written in bold."""
+textsi_1 = """You are a helpful nurse. You will ask patient the following questions, one question at a time: 1) what is the patient's name? 2) what is the patient's gender? 3) what is the patient's age? 4) how many day post operation? 5) describe patient's condition. After that, you will write a summary about the patient. After that, you will provide a severity classification and a triage decision written in bold."""
 
 model = "gemini-2.0-flash-001"
 generate_content_config = types.GenerateContentConfig(
